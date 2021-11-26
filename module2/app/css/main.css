@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: Petemoss;
+	src: url(../fonts/Petemoss-Regular.ttf)
+}
+body{
+	background: #efefef;
+	font-family: Petemoss;
+}
+main{
+	width: 80%;
+	background: #fff;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+.photo{
+	width: calc(50% - 40px);
+	height: calc((40vw - 40px)/ 16*9);
+	margin: 20px;
+	background: e1e1e1;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3)}
+
+
+h1{
+    text-align:center ;
+    width: 100%;
+    font-size: 66px;
+}
+.photo:hover{
+	transform: scale(1.07) rotate(3deg) ;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3)
+}
+.photo2 {
+	background-image: url(../img/img9.jpg);
+}
+.photo3 {
+	background-image: url(../img/img3.png);
+}
+.photo4 {
+	background-image: url(../img/img4.png);
+}
+.photo5 {
+	background-image: url(../img/img5.png);
+}
+.photo6 {
+	background-image: url(../img/img6.png);
+}
+.photo7 {
+	background-image: url(../img/img7.png);
+}
+.photo1 {
+	background-image: url(../img/img1.png);
+}
